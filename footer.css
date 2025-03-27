@@ -1,0 +1,48 @@
+footer {
+  background-color: hsl(220, 100%, 78%);
+  text-align: center;
+  border-top: 2px solid;
+  margin-top: 30px;
+  padding-bottom: 10px;   
+}
+
+footer h3 {
+  margin: 10px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.phone-number {
+  margin: 0 16px;
+}
+
+.footer-container a {
+  color: black;
+}
+
+@media all and (max-width: 750px) {
+  .footer-container {
+    font-size: .8rem;
+  }
+}
+
+@media all and (max-width: 459px) {
+  .footer-container {
+    font-size: .8rem;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .footer-container {
+    font-size: .61rem;
+  }
+}
