@@ -82,12 +82,16 @@ nav li:hover {
   }
 
   nav li {
-    font-size: .82rem;
+    font-size: .95rem;
   }
 }
 
 @media all and (max-width: 380px) {
   h1 {
     font-size: 1.50rem;
+  }
+
+  nav li {
+    font-size: .86rem;
   }
 }
